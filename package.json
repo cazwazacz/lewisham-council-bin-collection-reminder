@@ -1,0 +1,26 @@
+{
+  "name": "refuse-mailer",
+  "version": "1.0.0",
+  "description": "Automated bin collection reminder service for Lewisham council",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "automation",
+    "selenium",
+    "email",
+    "reminder"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^6.9.16",
+    "selenium-webdriver": "^4.25.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
